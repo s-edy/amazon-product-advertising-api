@@ -1,0 +1,40 @@
+{
+    "name": "s-edy/amazon-product-advertising-api",
+    "description": "This is a client of the Amazon Product Advertising API",
+    "version": "0.0.1",
+    "type": "library",
+    "keywords": [
+        "product advertising api",
+        "amazon",
+        "api",
+        "aws"
+    ],
+    "homepage": "https://github.com/s-edy",
+    "time": "2014-05-04",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shinichiro Yuki",
+            "email": "sinycourage@gmail.com",
+            "homepage": "https://github.com/s-edy",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Sedy\\": "src/Sedy"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "mockery/mockery": "dev-master",
+        "codeception/codeception": "*"
+    }
+}
